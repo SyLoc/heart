@@ -1,0 +1,39 @@
+
+@keyframes dotFlashing {
+    0% {
+      background-color: #929292;
+      transform: scale(.8);
+    }
+    50% {
+      background-color: #e0e0e0;
+      transform: scale(1);
+    }
+    100% {
+      background-color: #e0e0e0;
+      transform: scale(1.2);
+    }
+}
+
+.loading{
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .loading__point{
+        width: 7px;
+        height: 7px;
+        border-radius: 100%;
+    }
+    #point-1{
+        animation: dotFlashing 1.5s infinite linear;
+    }
+    #point-2{
+        animation: dotFlashing 1.5s infinite linear;
+        animation-delay: .2s;
+    }
+    #point-3{
+        animation: dotFlashing 1.5s infinite linear;
+        animation-delay: .4s;
+    }
+}

@@ -1,0 +1,83 @@
+.select-input {
+    .select-wrap{
+        position: relative;
+
+        .select__field {
+            width: 100%;
+            -webkit-appearance: none;
+            border: 1px solid #888888;
+            border-radius: 10px;
+            min-width: 200px;
+            padding: 10px 20px;
+
+            & > option{
+                // background-color: rgb(43, 226, 104);
+                // padding: 20px 0;
+
+                // display: none;
+
+                // &:hover {
+                //     color: red;
+                //     background-color: rgb(43, 226, 104);
+                // }
+            }
+        }
+
+
+        .select__arrow-icon{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 10px;
+        }
+    }
+    .select-clicked{
+        .select__arrow-icon{
+            .svg{
+                transform: rotate(50%);
+            }
+        }
+    }
+}
+
+
+.ex-select{
+    position: relative;
+    &:active{
+        overflow-y: auto
+    };
+    &::before{
+        position: absolute;
+        content: "";
+        top: 10px;
+        right: 10px;
+        width: 200px;
+        height: 50px;
+        background-image: url("../../images/check-icon.svg");
+        background-repeat: no-repeat;
+        background-position: 100% 50%;
+    }
+}
+
+
+.search-input-ex{
+    position: absolute;
+    top: 65px;
+    left: 0;
+    border: 1px solid #333333;
+    padding: 10px 10px;
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 5px;
+    z-index: 100;
+    background-color: #ffffff;
+}
+
+.select-menu ::-webkit-scrollbar {
+    width: 0;
+}
+
+.select-menu{
+    margin-top: 45px;
+}
+
