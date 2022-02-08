@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/heart/static/css/main.343cccc0.chunk.css",
+    "main.js": "/heart/static/js/main.158b5bac.chunk.js",
+    "main.js.map": "/heart/static/js/main.158b5bac.chunk.js.map",
+    "runtime-main.js": "/heart/static/js/runtime-main.99831c84.js",
+    "runtime-main.js.map": "/heart/static/js/runtime-main.99831c84.js.map",
+    "static/css/2.a95be28f.chunk.css": "/heart/static/css/2.a95be28f.chunk.css",
+    "static/js/2.a13f92fc.chunk.js": "/heart/static/js/2.a13f92fc.chunk.js",
+    "static/js/2.a13f92fc.chunk.js.map": "/heart/static/js/2.a13f92fc.chunk.js.map",
+    "index.html": "/heart/index.html",
+    "static/css/2.a95be28f.chunk.css.map": "/heart/static/css/2.a95be28f.chunk.css.map",
+    "static/css/main.343cccc0.chunk.css.map": "/heart/static/css/main.343cccc0.chunk.css.map",
+    "static/js/2.a13f92fc.chunk.js.LICENSE.txt": "/heart/static/js/2.a13f92fc.chunk.js.LICENSE.txt",
+    "static/media/arrow-icon.3829edc5.svg": "/heart/static/media/arrow-icon.3829edc5.svg",
+    "static/media/index.scss": "/heart/static/media/check-icon.98ebfcbc.svg",
+    "static/media/icon-close.4600cdba.svg": "/heart/static/media/icon-close.4600cdba.svg",
+    "static/media/icon-search.4b174aba.svg": "/heart/static/media/icon-search.4b174aba.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99831c84.js",
+    "static/css/2.a95be28f.chunk.css",
+    "static/js/2.a13f92fc.chunk.js",
+    "static/css/main.343cccc0.chunk.css",
+    "static/js/main.158b5bac.chunk.js"
+  ]
+}
