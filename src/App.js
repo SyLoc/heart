@@ -5,6 +5,7 @@ import './App.css';
 import axios from 'axios';
 import ReactPlayer from 'react-player';
 import Render from './Containers/render';
+import CodeForMyLove from './features/codeForMyLove'
 
 
 function App() {
@@ -150,7 +151,7 @@ function App() {
 
   return (
   <div>
-    <Render/>
+    <CodeForMyLove/>
   </div>
   )
 
